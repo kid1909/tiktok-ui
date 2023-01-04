@@ -15,7 +15,7 @@ function Header() {
                     <img src={images.logo} alt="tiktok" />
                 </div>
                 <div className={cx('search')}>
-                    <input placeholder="Search accounts and videos" spellcheck={false} />
+                    <input placeholder="Search accounts and videos" spellCheck={false} />
                     <button className={cx('clear')}>
                         <FontAwesomeIcon icon={faCircleXmark} />
                     </button>
@@ -24,6 +24,7 @@ function Header() {
                         <FontAwesomeIcon icon={faMagnifyingGlass} />
                     </button>
                 </div>
+                <div className={cx('action')}></div>
             </div>
         </header>
     );
